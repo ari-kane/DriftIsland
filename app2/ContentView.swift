@@ -1,24 +1,27 @@
 //
 //  ContentView.swift
-//  app2
-//
-//  Created by Work on 5/22/26.
+//  Tiny router. Picks the Mac or iPhone root view based on platform.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        #if os(macOS)
+        MacRootView()
+        #else
+        PhoneRootView()
+        #endif
     }
 }
 
 #Preview {
     ContentView()
+        .environmentObject({
+            #if os(macOS)
+            return PairingSession(role: .mac)
+            #else
+            return PairingSession(role: .phone)
+            #endif
+        }())
 }
