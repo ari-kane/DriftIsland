@@ -24,7 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A849163C2FC14A9F00B90EF2 /* DriftIsland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriftIsland.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A849163C2FC14A9F00B90EF2 /* DropoffIsland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropoffIsland.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84916492FC14AA000B90EF2 /* app2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = app2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84916532FC14AA000B90EF2 /* app2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = app2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -98,7 +98,7 @@
 		A849163D2FC14A9F00B90EF2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A849163C2FC14A9F00B90EF2 /* DriftIsland.app */,
+				A849163C2FC14A9F00B90EF2 /* DropoffIsland.app */,
 				A84916492FC14AA000B90EF2 /* app2Tests.xctest */,
 				A84916532FC14AA000B90EF2 /* app2UITests.xctest */,
 			);
@@ -127,7 +127,7 @@
 			packageProductDependencies = (
 			);
 			productName = app2;
-			productReference = A849163C2FC14A9F00B90EF2 /* DriftIsland.app */;
+			productReference = A849163C2FC14A9F00B90EF2 /* DropoffIsland.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A84916482FC14AA000B90EF2 /* app2Tests */ = {
@@ -440,7 +440,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = app.arikane.driftisland;
-				PRODUCT_NAME = DriftIsland;
+				PRODUCT_NAME = DropoffIsland;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -498,7 +498,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = app.arikane.driftisland;
-				PRODUCT_NAME = DriftIsland;
+				PRODUCT_NAME = DropoffIsland;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
