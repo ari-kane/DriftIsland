@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A849163B2FC14A9F00B90EF2"
-               BuildableName = "DriftIsland.app"
+               BuildableName = "DropoffIsland.app"
                BlueprintName = "DriftIsland"
-               ReferencedContainer = "container:app2.xcodeproj">
+               ReferencedContainer = "container:dropoffisland.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,30 +29,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
-      <Testables>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A84916482FC14AA000B90EF2"
-               BuildableName = "app2Tests.xctest"
-               BlueprintName = "app2Tests"
-               ReferencedContainer = "container:app2.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A84916522FC14AA000B90EF2"
-               BuildableName = "app2UITests.xctest"
-               BlueprintName = "app2UITests"
-               ReferencedContainer = "container:app2.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -70,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A849163B2FC14A9F00B90EF2"
-            BuildableName = "DriftIsland.app"
+            BuildableName = "DropoffIsland.app"
             BlueprintName = "DriftIsland"
-            ReferencedContainer = "container:app2.xcodeproj">
+            ReferencedContainer = "container:dropoffisland.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -87,9 +63,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A849163B2FC14A9F00B90EF2"
-            BuildableName = "DriftIsland.app"
+            BuildableName = "DropoffIsland.app"
             BlueprintName = "DriftIsland"
-            ReferencedContainer = "container:app2.xcodeproj">
+            ReferencedContainer = "container:dropoffisland.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
